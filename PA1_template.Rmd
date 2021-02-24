@@ -12,6 +12,8 @@ output:
 
 library(dplyr)
 library(ggplot2)
+library(knitr)
+
 urldata <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip"
 download.file(urldata,destfile = "dataproject.zip",method = "curl")
 unzip("dataproject.zip")
